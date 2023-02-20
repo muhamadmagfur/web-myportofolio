@@ -1,0 +1,288 @@
+/*bagian header*/
+header {
+	background-color: #384da1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 1px;
+    margin-bottom: 5px;
+}
+
+.title {
+	color: white;
+	font-size: 25px;
+    padding-right: 44%;
+}
+
+.logo {
+    flex: 1;
+}
+
+/*Bagian Navigasi*/
+.navbar {
+	border-radius: 1px;
+    margin-bottom: 5px;
+    background-color: #384da1;
+    border: 1px solid #384da1;
+
+}
+div.navbar ul {
+    list-style:none;
+    overflow: hidden;
+}
+div.navbar ul li {
+    float:left;
+    text-transform:uppercase;
+}
+div.navbar ul li a {
+    display:block;
+    padding:0 80px;
+    margin: 2px;
+    text-decoration:none;
+    color:#feffff;
+    font-family: sans-serif;
+    font-size:13px;
+    font-weight:400;
+    transition:all 0.3s ease-in-out;
+	}
+	div.navbar ul li a:hover,
+	div.navbar ul li a.hoverover {
+		cursor: pointer;
+		color:rgb(0, 0, 0);
+	}
+.navbar ul {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+/*sidecontent*/
+.sidecontent {
+	color: white;
+    width: 30%;
+    padding: 30px;
+    background-color: #384da1;
+    border-radius: 8px;
+    margin-left: 7px;
+}
+
+/*Main Content*/
+.main {
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	width: 100%;
+	height: auto;
+	margin-left: 1px;
+}
+.row {
+	text-align: center;
+}
+
+/*Bagian beranda*/
+.banner {
+	height: 90vh;
+	background-image: url('../images/banner3.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(20, 43, 143, 0.6);
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 60px;
+	border:3px solid #fff;
+}
+
+/*bagian gallery*/
+
+.container-galeri .text{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.container-galeri .text p{
+  width: 500px;
+  margin: 0px 40px;
+  font-size: 18px;
+}
+
+.container-projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eaeaea;
+  padding: 25px 0px;
+}
+
+.container-projects .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-projects .card{
+  width: 350px;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 0px 0px 5px 0px;
+}
+
+.container-projects .card img{
+  width: 100%;
+}
+
+.container-projects .card p{
+  color: black;
+  padding: 10px;
+}
+
+/*bagian portofolio*/
+.portof {
+	background-color: #4773a9;
+	border:3px solid #4773a9;
+	}
+	.box {
+		color: #ffffff;
+		width: 100%;
+	}
+	.box:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.box .col-4 {
+		width:25%;
+		padding:20px;
+		box-sizing: border-box;
+		text-align: center;
+		float: left;
+		
+	}
+	.box .col-4 h4 {
+		margin:20px 0;
+	}
+
+	.box .isikonten {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+.profil {
+	border-radius: 50%;
+}
+
+
+/*bagian hubungi*/
+
+.container-hubungi .text{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 20px 0px;
+  }
+  
+  .container-hubungi .text p{
+	width: 500px;
+	margin: 0px 40px;
+	font-size: 18px;
+  }
+  
+  .container-isi{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #eaeaea;
+	padding: 25px 0px;
+  }
+  
+  .container-isi .cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  
+  .container-isi .card{
+	width: 350px;
+	margin: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+	padding: 0px 0px 5px 0px;
+  }
+  
+  .container-isi .card img{
+	width: 100%;
+  }
+  
+  .container-isi .card p{
+	color: black;
+	padding: 10px;
+  }
+
+.hub {
+	background-color: #4773a9;
+	border:3px solid #4773a9;
+	}
+	.box {
+		color: #000000;
+		width: 100%;
+	}
+	.box:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.box .col-4 {
+		width:25%;
+		padding:20px;
+		box-sizing: border-box;
+		text-align: center;
+		float: left;
+	}
+	.box .col-4 h4 {
+		margin:20px 0;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: #384da1;
+    border-radius: 1px;
+    color: rgb(255, 255, 255);
+    margin-top: 7px;
+	position: relative;
+}
+
+/*responsif*/
+@media screen and (max-width:768px){
+	.isigal{
+		grid-template-columns: 1fr 1fr;
+	}
+	.isigal img{
+		height: 170px;
+	}
+}
